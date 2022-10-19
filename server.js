@@ -194,9 +194,11 @@ function updateEmployee() {
         switch(val.choice) {
             case "Manager":{ 
                 updateEmployeeManager()
+                break;
             }
             case "Role" :{
                 updateEmployeeRole()
+                break;
             }
             default: {
                 promptInProgress = false;
